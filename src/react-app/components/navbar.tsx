@@ -9,10 +9,10 @@ function Navbar() {
         </Link>
 
         <nav className="nav-links">
-          <Link to="/services" className="placard">Services</Link >
+          <Link to="/services" className="placard">Services</Link>
           <Link to="/about" className="placard">About</Link>
-          <Link to="/case-studies" className="placard">Case Studies</Link>
-          <Link to="/contact" className="placard button button-secondary">
+          <Link to="/case-studies">Case Studies</Link>
+          <Link to="/contact" className="button button-secondary">
             Contact
           </Link>
         </nav>

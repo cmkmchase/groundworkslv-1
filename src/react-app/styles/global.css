@@ -25,14 +25,14 @@ body {
 }
 
 @font-face {
-  font-family: 'placard';
-  src: url('/fonts/PlacardNextWideRg.ttf') format('truetype');
+  font-family: 'placardWide';
+  src: url('/fonts/PlacardNextWideRg.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 .placard {
-  font-family: 'placard', sans-serif;
+  font-family: 'placardWide', sans-serif;
 }
 
 a {
