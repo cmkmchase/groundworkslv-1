@@ -172,11 +172,11 @@ main {
 .button-secondary {
   border: 1px solid #d4d4d4;
   background: #ffffff;
-  color: #171717;
+  color: var(--color-neutral);
 }
 
 .button-secondary:hover {
-  background: #f7f7f7;
+  background: var(--color-accent);
 }
 
 .hero-actions {
