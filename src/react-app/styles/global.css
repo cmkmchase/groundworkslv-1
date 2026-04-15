@@ -162,7 +162,7 @@ main {
 
 .button-primary {
   background: #171717;
-  color: #ffffff;
+  color: var(--color-accent);
 }
 
 .button-primary:hover {
