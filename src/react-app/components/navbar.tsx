@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="container navbar-inner">
-        <Link to="/" className="brand">
+        <Link to="/" className="brand hit-and-run">
           Groundworks LV
         </Link>
 
