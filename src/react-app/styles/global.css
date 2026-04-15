@@ -13,6 +13,17 @@ body {
   background: #ffffff;
 }
 
+@font-face {
+  font-family: 'HitAndRun';
+  src: url('/fonts/hit-and-run.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hit-and-run{
+  font-family: 'HitAndRun', sans-serif;
+}
+
 a {
   color: inherit;
   text-decoration: none;

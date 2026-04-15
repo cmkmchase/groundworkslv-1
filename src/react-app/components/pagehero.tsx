@@ -9,7 +9,7 @@ function PageHero({ eyebrow, title, text }: Props) {
     <section className="page-hero">
       <div className="container">
         {eyebrow ? <div className="eyebrow">{eyebrow}</div> : null}
-        <h1>{title}</h1>
+        <h1 className="hit-and-run">{title}</h1>
         <p>{text}</p>
       </div>
     </section>
