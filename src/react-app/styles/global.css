@@ -13,6 +13,8 @@ body {
   background: #ffffff;
 }
 
+/* fonts */
+
 @font-face {
   font-family: 'HitAndRun';
   src: url('/fonts/hit-and-run.otf') format('opentype');
@@ -34,6 +36,16 @@ body {
 .placard {
   font-family: 'placardWide', sans-serif;
 }
+
+/* colors */
+
+:root {
+  --color-primary: #b1cf94;
+  --color-accent: #f5d694;
+  --color-neutral: #686868;
+}
+
+
 
 a {
   color: inherit;
@@ -105,8 +117,8 @@ main {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(255, 255, 255, 0.96);
-  border-bottom: 1px solid #e5e5e5;
+  background: var(--color-neutral);
+  border-bottom: 1px solid var(--color-neutral);
   backdrop-filter: blur(8px);
 }
 
