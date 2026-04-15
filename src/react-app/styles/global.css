@@ -133,7 +133,7 @@ main {
 .brand {
   font-weight: 800;
   font-size: 24px;
-  color: #1f344b;
+  color: var(--color-primary);
 }
 
 .nav-links {
@@ -144,12 +144,12 @@ main {
 }
 
 .nav-links a {
-  color: #404040;
+  color: white;
   font-weight: 600;
 }
 
 .nav-links a:hover {
-  color: #171717;
+  color: var(--color-primary);
 }
 
 .button {
